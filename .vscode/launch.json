@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch InventoryAggregator.Api",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/InventoryAggregator.Api/bin/Debug/net8.0/InventoryAggregator.Api.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/InventoryAggregator.Api",
+      "stopAtEntry": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5080"
+      }
+    }
+  ]
+}
